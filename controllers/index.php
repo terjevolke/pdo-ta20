@@ -1,3 +1,3 @@
 <?php
-$tasks = $database->selectAll('todos');
+$tasks = $app['database']->selectAll('todos');
 require_once'views/index.view.php';

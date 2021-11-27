@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Title</title>
-</head>
-<body>
+<?php require('partials/head.php'); ?>
 <h1>Todo list</h1>
         <?php foreach ($tasks as $task) : ?>
             <li>
@@ -29,5 +23,4 @@
                     <?php endif; ?>
                 </li>
         <?php endforeach; ?>
-   </body>
-</html>
+        <?php require('partials/footer.php'); ?>
