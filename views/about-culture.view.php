@@ -1,3 +1,3 @@
 <?php require('partials/head.php'); ?>
-<h1><?= $name; ?> Kultuurist </h1>
+<h1> Kultuurist </h1>
 <?php require('partials/footer.php'); ?>
